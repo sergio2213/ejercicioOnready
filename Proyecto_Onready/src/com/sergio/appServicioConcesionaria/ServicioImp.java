@@ -5,12 +5,12 @@ import java.util.*;
 
 public class ServicioImp implements Servicio
 {
-    List<Vehiculo> listaVehiculos;
+    private List<Vehiculo> listaVehiculos;
 
 
     public ServicioImp()
     {
-        listaVehiculos = new ArrayList<>();
+        this.listaVehiculos = new ArrayList<>();
     }
 
     @Override
